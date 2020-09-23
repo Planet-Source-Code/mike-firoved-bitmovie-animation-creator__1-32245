@@ -1,0 +1,1085 @@
+ÿ0uVERSION 5.00
+Begin VB.Form frmdisplay 
+   BorderStyle     =   3  'Fixed Dialog
+   Caption         =   ""Bitmovie""
+   ClientHeight    =   2595
+   ClientLeft      =   45
+   ClientTop       =   330
+   ClientWidth     =   2325
+   FillColor       =   &H00FFFFFF&
+   LinkTopic       =   ""Form1""
+   MaxButton       =   0   'False
+   MinButton       =   0   'False
+   ScaleHeight     =   2595
+   ScaleWidth      =   2325
+   StartUpPosition =   2  'CenterScreen
+   Begin VB.TextBox txtTot 
+      Height          =   315
+      Left            =   4680
+      MultiLine       =   -1  'True
+      TabIndex        =   2
+      Text            =   ""FRMDISPLAY.frx"":0000
+      Top             =   540
+      Width           =   915
+   End
+   Begin VB.TextBox txtMovie 
+      Height          =   1935
+      Left            =   2640
+      MultiLine       =   -1  'True
+      TabIndex        =   1
+      Text            =   ""FRMDISPLAY.frx"":0008
+      Top             =   180
+      Width           =   1755
+   End
+   Begin VB.CommandButton Command1 
+      Caption         =   ""Play""
+      Height          =   255
+      Left            =   150
+      TabIndex        =   0
+      Top             =   2220
+      Width           =   1995
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   1023
+      Left            =   2025
+      Top             =   1980
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   1022
+      Left            =   1965
+      Top             =   1980
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   1021
+      Left            =   1905
+      Top             =   1980
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   1020
+      Left            =   1845
+      Top             =   1980
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   1019
+      Left            =   1785
+      Top             =   1980
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   1018
+      Left            =   1725
+      Top             =   1980
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   1017
+      Left            =   1665
+      Top             =   1980
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   1016
+      Left            =   1605
+      Top             =   1980
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   1015
+      Left            =   1545
+      Top             =   1980
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   1014
+      Left            =   1485
+      Top             =   1980
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   1013
+      Left            =   1425
+      Top             =   1980
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   1012
+      Left            =   1365
+      Top             =   1980
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   1011
+      Left            =   1305
+      Top             =   1980
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   1010
+      Left            =   1245
+      Top             =   1980
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   1009
+      Left            =   1185
+      Top             =   1980
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   1008
+      Left            =   1125
+      Top             =   1980
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   1007
+      Left            =   1065
+      Top             =   1980
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   1006
+      Left            =   1005
+      Top             =   1980
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   1005
+      Left            =   945
+      Top             =   1980
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   1004
+      Left            =   885
+      Top             =   1980
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   1003
+      Left            =   825
+      Top             =   1980
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   1002
+      Left            =   765
+      Top             =   1980
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   1001
+      Left            =   705
+      Top             =   1980
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   1000
+      Left            =   645
+      Top             =   1980
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   999
+      Left            =   585
+      Top             =   1980
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   998
+      Left            =   525
+      Top             =   1980
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   997
+      Left            =   465
+      Top             =   1980
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   996
+      Left            =   405
+      Top             =   1980
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   995
+      Left            =   345
+      Top             =   1980
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   994
+      Left            =   285
+      Top             =   1980
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   993
+      Left            =   225
+      Top             =   1980
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   992
+      Left            =   165
+      Top             =   1980
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   991
+      Left            =   2025
+      Top             =   1920
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   990
+      Left            =   1965
+      Top             =   1920
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   989
+      Left            =   1905
+      Top             =   1920
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   988
+      Left            =   1845
+      Top             =   1920
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   987
+      Left            =   1785
+      Top             =   1920
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   986
+      Left            =   1725
+      Top             =   1920
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   985
+      Left            =   1665
+      Top             =   1920
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   984
+      Left            =   1605
+      Top             =   1920
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   983
+      Left            =   1545
+      Top             =   1920
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   982
+      Left            =   1485
+      Top             =   1920
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   981
+      Left            =   1425
+      Top             =   1920
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   980
+      Left            =   1365
+      Top             =   1920
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   979
+      Left            =   1305
+      Top             =   1920
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   978
+      Left            =   1245
+      Top             =   1920
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   977
+      Left            =   1185
+      Top             =   1920
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   976
+      Left            =   1125
+      Top             =   1920
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   975
+      Left            =   1065
+      Top             =   1920
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   974
+      Left            =   1005
+      Top             =   1920
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   973
+      Left            =   945
+      Top             =   1920
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   972
+      Left            =   885
+      Top             =   1920
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   971
+      Left            =   825
+      Top             =   1920
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   970
+      Left            =   765
+      Top             =   1920
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   969
+      Left            =   705
+      Top             =   1920
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   968
+      Left            =   645
+      Top             =   1920
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   967
+      Left            =   585
+      Top             =   1920
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   966
+      Left            =   525
+      Top             =   1920
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   965
+      Left            =   465
+      Top             =   1920
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   964
+      Left            =   405
+      Top             =   1920
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   963
+      Left            =   345
+      Top             =   1920
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   962
+      Left            =   285
+      Top             =   1920
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   961
+      Left            =   225
+      Top             =   1920
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   960
+      Left            =   165
+      Top             =   1920
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   959
+      Left            =   2025
+      Top             =   1860
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   958
+      Left            =   1965
+      Top             =   1860
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   957
+      Left            =   1905
+      Top             =   1860
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   956
+      Left            =   1845
+      Top             =   1860
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   955
+      Left            =   1785
+      Top             =   1860
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   954
+      Left            =   1725
+      Top             =   1860
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   953
+      Left            =   1665
+      Top             =   1860
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   952
+      Left            =   1605
+      Top             =   1860
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   951
+      Left            =   1545
+      Top             =   1860
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   950
+      Left            =   1485
+      Top             =   1860
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   949
+      Left            =   1425
+      Top             =   1860
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   948
+      Left            =   1365
+      Top             =   1860
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   947
+      Left            =   1305
+      Top             =   1860
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   946
+      Left            =   1245
+      Top             =   1860
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   945
+      Left            =   1185
+      Top             =   1860
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   944
+      Left            =   1125
+      Top             =   1860
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   943
+      Left            =   1065
+      Top             =   1860
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   942
+      Left            =   1005
+      Top             =   1860
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   941
+      Left            =   945
+      Top             =   1860
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   940
+      Left            =   885
+      Top             =   1860
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   939
+      Left            =   825
+      Top             =   1860
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   938
+      Left            =   765
+      Top             =   1860
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   937
+      Left            =   705
+      Top             =   1860
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   936
+      Left            =   645
+      Top             =   1860
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   935
+      Left            =   585
+      Top             =   1860
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   934
+      Left            =   525
+      Top             =   1860
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   933
+      Left            =   465
+      Top             =   1860
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   932
+      Left            =   405
+      Top             =   1860
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   931
+      Left            =   345
+      Top             =   1860
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   930
+      Left            =   285
+      Top             =   1860
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   929
+      Left            =   225
+      Top             =   1860
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   928
+      Left            =   165
+      Top             =   1860
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   927
+      Left            =   2025
+      Top             =   1800
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   926
+      Left            =   1965
+      Top             =   1800
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   925
+      Left            =   1905
+      Top             =   1800
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   924
+      Left            =   1845
+      Top             =   1800
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   923
+      Left            =   1785
+      Top             =   1800
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   922
+      Left            =   1725
+      Top             =   1800
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   921
+      Left            =   1665
+      Top             =   1800
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   920
+      Left            =   1605
+      Top             =   1800
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   919
+      Left            =   1545
+      Top             =   1800
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   918
+      Left            =   1485
+      Top             =   1800
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   917
+      Left            =   1425
+      Top             =   1800
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   916
+      Left            =   1365
+      Top             =   1800
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   915
+      Left            =   1305
+      Top             =   1800
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   914
+      Left            =   1245
+      Top             =   1800
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   913
+      Left            =   1185
+      Top             =   1800
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   912
+      Left            =   1125
+      Top             =   1800
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   911
+      Left            =   1065
+      Top             =   1800
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   910
+      Left            =   1005
+      Top             =   1800
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   909
+      Left            =   945
+      Top             =   1800
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   908
+      Left            =   885
+      Top             =   1800
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   907
+      Left            =   825
+      Top             =   1800
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   906
+      Left            =   765
+      Top             =   1800
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   905
+      Left            =   705
+      Top             =   1800
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   904
+      Left            =   645
+      Top             =   1800
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   903
+      Left            =   585
+      Top             =   1800
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   902
+      Left            =   525
+      Top             =   1800
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   901
+      Left            =   465
+      Top             =   1800
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   900
+      Left            =   405
+      Top             =   1800
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   899
+      Left            =   345
+      Top             =   1800
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   898
+      Left            =   285
+      Top             =   1800
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   897
+      Left            =   225
+      Top             =   1800
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   896
+      Left            =   165
+      Top             =   1800
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   895
+      Left            =   2025
+      Top             =   1740
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   894
+      Left            =   1965
+      Top             =   1740
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   893
+      Left            =   1905
+      Top             =   1740
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   892
+      Left            =   1845
+      Top             =   1740
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   891
+      Left            =   1785
+      Top             =   1740
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   890
+      Left            =   1725
+      Top             =   1740
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   889
+      Left            =   1665
+      Top             =   1740
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   888
+      Left            =   1605
+      Top             =   1740
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   887
+      Left            =   1545
+      Top             =   1740
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   886
+      Left            =   1485
+      Top             =   1740
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   885
+      Left            =   1425
+      Top             =   1740
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   884
+      Left            =   1365
+      Top             =   1740
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   883
+      Left            =   1305
+      Top             =   1740
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   882
+      Left            =   1245
+      Top             =   1740
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   881
+      Left            =   1185
+      Top             =   1740
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   880
+      Left            =   1125
+      Top             =   1740
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   879
+      Left            =   1065
+      Top             =   1740
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   878
+      Left            =   1005
+      Top             =   1740
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   877
+      Left            =   945
+      Top             =   1740
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   876
+      Left            =   885
+      Top             =   1740
+      Width           =   60
+   End
+   Begin VB.Image imgTarget 
+      Height          =   60
+      Index           =   875
+      Left            =   825
+      Top             =   1740
+      Width           =   60
+   End
+   Begin 
